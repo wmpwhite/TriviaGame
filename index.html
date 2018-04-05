@@ -10,43 +10,50 @@
     <title>Trivia Game</title>
 </head>
 <body>
-
+    <!-- a wrapper div -->
     <div class="container">
-
+        <!-- a div to control and style the top of the page. This is where the timer is located and where I had intended to put a "start" button-->
+        <!-- that would fire off functions to start the timer and to load the questions and possible answers  -->
         <div id="header">
-
-                <div class="box" id="timer-box">
-                    <h3>Seconds left:</h3>
-                    <br>
-                    <h3><span id="time"></span></h3>        
-                </div>
-                <div class="box" id="correctOrNot">
-                    <h3>Number Correct: <span id="player-wins"></span></h3>
-                    <br>
-                    <h3>Number Incorrect:  <span id="player-losses"></span></h3>                             
-                </div>
+            <div class="box" id="timer-box">
+                <h3>Seconds left:</h3>
+                <br>
+                <h3><span id="time"></span></h3>        
+            </div>
+            <hr>                
         </div>
-        <div>
-            <hr>
-        </div>
-
+        <!-- heading at the top of the questions area and below the timer and start button -->
         <div class="heading">        
             <h1>The Civil War Quiz</h1>
         </div>
+        <!-- this was to be the div where all the questions and answers displayed -->
+        <div class="questions-area">
+
+            <h3 id="question-asked"></h3>
+            <br>
+            <div id="possible-answers">
+                <p id="ans-0"></p>
+                <br>
+                <p id="ans-1"></p>
+                <br>
+                <p id="ans-2"></p>
+                <br>
+                <p id="ans-3"></p>
+                <br>
+            </div>
 
 
 
 
 
+            
+
+            
+        </div>
 
 
 
-
-
-
-
-
-
+        
 
 
 
